@@ -1,0 +1,29 @@
+.Categorias{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid wheat;
+    
+    
+}
+
+.categoria-elemento{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding-left: 50px;
+    font-family: lotto,sans-serif;
+    font-size: 25px;
+    cursor:pointer;
+
+    
+    
+}
+
+.categoria-elemento:hover{
+    background-color:  #22aed1;
+}
